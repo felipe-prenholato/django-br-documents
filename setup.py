@@ -1,4 +1,8 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 from setuptools import setup, find_packages
+
 setup(
     name="django-br-documents",
     version="0.0.1",
@@ -23,5 +27,5 @@ setup(
         "Operating System :: OS Independent",
         "Programming Language :: Python",
     ],
-    install_requires=["Django>=1.4.3","br_documents"],
+    install_requires=["Django>=1.4.3","br_documents"]
 )
